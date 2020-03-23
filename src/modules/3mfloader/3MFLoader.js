@@ -40,7 +40,7 @@ import {
 	TextureLoader,
 	VertexColors,
 	sRGBEncoding
-} from "/threejs/three.module.js";
+} from "/modules/threejs/three.module.js";
 
 var ThreeMFLoader = function ( manager ) {
 
@@ -93,9 +93,8 @@ ThreeMFLoader.prototype = Object.assign( Object.create( Loader.prototype ), {
 			var otherParts = {};
 
 			try {
-
 				zip = new JSZip( data ); // eslint-disable-line no-undef
-
+				console.log("aquiii")
 			} catch ( e ) {
 
 				if ( e instanceof ReferenceError ) {

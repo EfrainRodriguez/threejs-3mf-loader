@@ -2,15 +2,16 @@
   "name": "testThreejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon src"
+    "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jszip": "^3.2.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
