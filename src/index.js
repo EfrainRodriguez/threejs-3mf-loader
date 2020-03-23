@@ -20,5 +20,5 @@ app.get('/', (req,res) =>{
 
 //servidor ouvindo...
 app.listen(app.get('port'), ()=>{
-    console.log('servidor no porto', app.get('port'));
+    console.log('servidor on porto', app.get('port'));
 });
